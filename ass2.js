@@ -233,8 +233,9 @@ for(let i=1; i<=10; i++ ){
 // A prime number is only divisible by 1 and itself
 // Check numbers from 2 to number-1, if any divides evenly, it's not prime
 
-let num = 17;
-let isPrime = true;
+// let num = 17;
+// let isPrime = true;
+
 
 
 
@@ -245,6 +246,15 @@ let isPrime = true;
 
 // TASK 12: Print first 10 multiples of 3
 
+let num = 3
+for(let i = 1; i <=10; i++ ){
+    let multiple = i * num
+    console.log(`${num} * ${i} = ${multiple}`);
+    
+}
+
+
+
 // ============================================
 
 // TASK 13: Reverse a number
@@ -252,8 +262,7 @@ let isPrime = true;
 // Output should be: 54321
 // Hint: Use % 10 to get last digit, then divide by 10
 
-// let originalNum = 12345;
-// let reversed = 0;
+
 
 // ============================================
 
@@ -261,8 +270,8 @@ let isPrime = true;
 // Given: let num = 45678
 // Count how many digits are in the number
 
-// let num = 45678;
-// let digitCount = 0;
+//  let num1 = 45678;
+//  let digitCount = 0;
 
 // ============================================
 
